@@ -1,73 +1,130 @@
-# Welcome to your Lovable project
+# Smart Utility Hub
 
-## Project info
+A professional, modern, and responsive multi-tool website that provides essential online utilities — from fitness tracking (BMI, calories, Zakat) to general tools (QR code, password generator, word counter, discount calculator).
 
-**URL**: https://lovable.dev/projects/98ee3cfd-71f8-4940-a421-7d5c53f4e096
+## 🌟 Features
 
-## How can I edit this code?
+### Tools Included
+- **BMI Calculator** - Calculate Body Mass Index with color-coded results
+- **Calorie Calculator** - Estimate daily calorie needs using the Mifflin-St Jeor equation
+- **Word Counter** - Count words, characters, and estimate reading time
+- **Discount Calculator** - Calculate discounts and final prices
+- **Password Generator** - Generate strong, random passwords with customizable options
+- **QR Code Generator** - Convert text/URLs into downloadable QR codes
+- **Zakat Calculator** - Calculate zakat based on savings and assets
 
-There are several ways of editing your application.
+### Website Pages
+- **Home** - Hero section, tool previews, features, and testimonials
+- **Tools** - Interactive hub with all 7 tools
+- **About** - Platform information and mission
+- **Blog** - 5 demo blog posts about productivity and digital tools
+- **Contact** - Contact form and information
+- **Privacy Policy** - Comprehensive privacy information
+- **Terms of Service** - Legal terms and disclaimers
 
-**Use Lovable**
+## 🎨 Design
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/98ee3cfd-71f8-4940-a421-7d5c53f4e096) and start prompting.
+- **Color Scheme**: Blue (#2B9CFF) primary with green (#2FAF7D) accents
+- **Typography**: Poppins font family
+- **UI Elements**: Soft shadows, rounded corners, smooth animations
+- **Responsive**: Mobile-first design, works on all devices
+- **Theme**: Clean, modern, professional with strong visual hierarchy
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🔧 Technology Stack
 
-**Use your preferred IDE**
+- **Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS with custom design system
+- **UI Components**: shadcn/ui
+- **Routing**: React Router v6
+- **Icons**: Lucide React
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
+- Node.js 16+ and npm installed
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+1. Clone the repository:
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build for Production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The production-ready files will be in the `dist` folder.
 
-## What technologies are used for this project?
+## 📦 Deployment
 
-This project is built with:
+This project is ready to deploy to:
+- **Netlify**: Just connect your repository and deploy
+- **Vercel**: Import your repository and deploy with one click
+- **Lovable**: Use the built-in publish feature
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🔒 Privacy & Security
 
-## How can I deploy this project?
+All tools work entirely client-side in the browser:
+- ✅ No data collection or storage
+- ✅ All calculations happen locally
+- ✅ No backend required
+- ✅ Privacy-first approach
 
-Simply open [Lovable](https://lovable.dev/projects/98ee3cfd-71f8-4940-a421-7d5c53f4e096) and click on Share -> Publish.
+## 📱 Browser Support
 
-## Can I connect a custom domain to my Lovable project?
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
-Yes, you can!
+## 🎯 Target Audience
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Europe-focused users
+- Age 18-45
+- Tech-savvy individuals
+- Fitness-conscious users
+- Students and professionals
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📄 SEO Features
+
+- Optimized meta tags for all pages
+- Semantic HTML structure
+- OpenGraph tags for social sharing
+- Clean, descriptive URLs
+- Mobile-friendly design
+- Fast loading times
+
+## 🤝 Contributing
+
+This is a client project. For questions or support, contact:
+- Email: support@smartutilityhub.com
+
+## 📝 License
+
+Copyright © 2025 Smart Utility Hub. All rights reserved.
+
+## 🔗 Links
+
+- [Live Demo](https://lovable.dev/projects/98ee3cfd-71f8-4940-a421-7d5c53f4e096)
+- [Documentation](https://docs.lovable.dev)
+
+---
+
+Built with ❤️ using [Lovable](https://lovable.dev)
