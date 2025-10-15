@@ -64,21 +64,6 @@ npm run dev
 
 4. Open your browser and navigate to `http://localhost:8080`
 
-### Build for Production
-
-```bash
-npm run build
-```
-
-The production-ready files will be in the `dist` folder.
-
-## 📦 Deployment
-
-This project is ready to deploy to:
-- **Netlify**: Just connect your repository and deploy
-- **Vercel**: Import your repository and deploy with one click
-- **Lovable**: Use the built-in publish feature
-
 ## 🔒 Privacy & Security
 
 All tools work entirely client-side in the browser:
@@ -94,36 +79,12 @@ All tools work entirely client-side in the browser:
 - Safari (latest)
 - Edge (latest)
 
-## 🎯 Target Audience
-
-- Europe-focused users
-- Age 18-45
-- Tech-savvy individuals
-- Fitness-conscious users
-- Students and professionals
-
-## 📄 SEO Features
-
-- Optimized meta tags for all pages
-- Semantic HTML structure
-- OpenGraph tags for social sharing
-- Clean, descriptive URLs
-- Mobile-friendly design
-- Fast loading times
-
-## 🤝 Contributing
-
-This is a client project. For questions or support, contact:
-- Email: support@smartutilityhub.com
+- Email: makaash74@gmail.com
 
 ## 📝 License
 
 Copyright © 2025 Smart Utility Hub. All rights reserved.
 
-## 🔗 Links
-
-- [Live Demo](https://lovable.dev/projects/98ee3cfd-71f8-4940-a421-7d5c53f4e096)
-- [Documentation](https://docs.lovable.dev)
 
 ---
 
