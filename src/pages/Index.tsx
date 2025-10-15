@@ -25,6 +25,7 @@ const toolCards = [
     description: "Calculate your Body Mass Index and understand your health metrics.",
     color: "text-primary",
     bgColor: "bg-primary/10",
+    path: "/tools/bmi-calculator",
   },
   {
     icon: Activity,
@@ -32,6 +33,7 @@ const toolCards = [
     description: "Estimate your daily calorie needs based on your lifestyle.",
     color: "text-secondary",
     bgColor: "bg-secondary/10",
+    path: "/tools/calorie-calculator",
   },
   {
     icon: FileText,
@@ -39,6 +41,7 @@ const toolCards = [
     description: "Count words, characters, and estimate reading time instantly.",
     color: "text-blue-600",
     bgColor: "bg-blue-100",
+    path: "/tools/word-counter",
   },
   {
     icon: Percent,
@@ -46,6 +49,7 @@ const toolCards = [
     description: "Calculate discounts and final prices for smart shopping.",
     color: "text-purple-600",
     bgColor: "bg-purple-100",
+    path: "/tools/discount-calculator",
   },
   {
     icon: Key,
@@ -53,6 +57,7 @@ const toolCards = [
     description: "Generate strong, secure passwords to protect your accounts.",
     color: "text-orange-600",
     bgColor: "bg-orange-100",
+    path: "/tools/password-generator",
   },
   {
     icon: QrCode,
@@ -60,6 +65,7 @@ const toolCards = [
     description: "Create QR codes from text or URLs in seconds.",
     color: "text-pink-600",
     bgColor: "bg-pink-100",
+    path: "/tools/qr-code-generator",
   },
   {
     icon: DollarSign,
@@ -67,6 +73,7 @@ const toolCards = [
     description: "Calculate your zakat obligations quickly and accurately.",
     color: "text-secondary",
     bgColor: "bg-secondary/10",
+    path: "/tools/zakat-calculator",
   },
 ];
 
@@ -131,16 +138,17 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-slide-up">
             {toolCards.map((tool, index) => (
-              <Card 
-                key={index} 
-                className="p-6 hover:shadow-elevated transition-all duration-300 hover:-translate-y-1 cursor-pointer group"
-              >
-                <div className={`w-12 h-12 ${tool.bgColor} rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
-                  <tool.icon className={tool.color} size={24} />
-                </div>
-                <h3 className="text-xl font-semibold mb-2">{tool.title}</h3>
-                <p className="text-muted-foreground">{tool.description}</p>
-              </Card>
+              <Link key={index} to={tool.path}>
+                <Card 
+                  className="p-6 h-full hover:shadow-elevated transition-all duration-300 hover:-translate-y-1 cursor-pointer group"
+                >
+                  <div className={`w-12 h-12 ${tool.bgColor} rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
+                    <tool.icon className={tool.color} size={24} />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">{tool.title}</h3>
+                  <p className="text-muted-foreground">{tool.description}</p>
+                </Card>
+              </Link>
             ))}
           </div>
           

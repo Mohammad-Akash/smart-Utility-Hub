@@ -10,6 +10,13 @@ import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
+import BMICalculatorPage from "./pages/tools/BMICalculatorPage";
+import CalorieCalculatorPage from "./pages/tools/CalorieCalculatorPage";
+import WordCounterPage from "./pages/tools/WordCounterPage";
+import DiscountCalculatorPage from "./pages/tools/DiscountCalculatorPage";
+import PasswordGeneratorPage from "./pages/tools/PasswordGeneratorPage";
+import QRCodeGeneratorPage from "./pages/tools/QRCodeGeneratorPage";
+import ZakatCalculatorPage from "./pages/tools/ZakatCalculatorPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +30,13 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/tools" element={<Tools />} />
+          <Route path="/tools/bmi-calculator" element={<BMICalculatorPage />} />
+          <Route path="/tools/calorie-calculator" element={<CalorieCalculatorPage />} />
+          <Route path="/tools/word-counter" element={<WordCounterPage />} />
+          <Route path="/tools/discount-calculator" element={<DiscountCalculatorPage />} />
+          <Route path="/tools/password-generator" element={<PasswordGeneratorPage />} />
+          <Route path="/tools/qr-code-generator" element={<QRCodeGeneratorPage />} />
+          <Route path="/tools/zakat-calculator" element={<ZakatCalculatorPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
