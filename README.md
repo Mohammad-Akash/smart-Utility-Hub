@@ -86,6 +86,3 @@ All tools work entirely client-side in the browser:
 Copyright © 2025 Smart Utility Hub. All rights reserved.
 
 
----
-
-Built with ❤️ using [Lovable](https://lovable.dev)
